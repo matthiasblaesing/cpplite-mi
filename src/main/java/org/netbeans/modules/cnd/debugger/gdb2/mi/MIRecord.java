@@ -106,7 +106,7 @@ public class MIRecord {
 
     /**
      * Retrieve the prefix character associated with the type of record.
-     * One of "^*+=~@&".
+     * One of "^*+=~@&amp;".
      */
 
     public char type() {
@@ -115,7 +115,7 @@ public class MIRecord {
 
 
     /**
-     * Return true if the record is a "stream" message, one of "~@&".
+     * Return true if the record is a "stream" message, one of "~@&amp;".
      */
     public boolean isStream() {
 	return isStream;
@@ -161,7 +161,7 @@ public class MIRecord {
      * instead of 'error'. This happens for example like this:
      * <pre>
      * 8-break-insert nonexistent
-     * &"Function \"nonexistent\" not defined.\n"
+     * &amp;"Function \"nonexistent\" not defined.\n"
      * 8^done
      * </pre>
      */

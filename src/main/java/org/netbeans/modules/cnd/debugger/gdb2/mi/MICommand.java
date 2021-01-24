@@ -152,7 +152,7 @@ public abstract class MICommand {
 
     /**
      * Called when we see something like this 
-     * > 
+     * &gt;
      * in the log.
      */
     protected abstract void onUserInteraction(MIUserInteraction ui);
